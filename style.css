@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.homeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-color:hsl(160, 100%, 80%);
+}
+
+.homeSection h1 {
+    font-size: 3rem;
+    margin-top: 20vh;
+    color: hsl(160, 100%, 20%);
+}
+
+.homeSection h2 {
+    font-size: 2rem;
+    color: hsl(160, 100%, 30%)
+}
+
+.aboutSection {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSection img {
+    margin-top: 10vh;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.aboutSection h2 {
+    font-size: 2rem;
+}
+
+.aboutSection p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 40vw;
+    text-align: center;
+}
